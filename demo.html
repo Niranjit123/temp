@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CSS Tutorial</title>
+    <style>
+        /* Basic global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #888;
+            padding-bottom: 5px;
+        }
+        
+        /* Container for content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+        }
+        
+        /* Background color examples */
+        .bg-section {
+            margin: 20px 0;
+        }
+        
+        .bg-example {
+            padding: 15px;
+            margin: 10px 0;
+        }
+        
+        .bg-blue {
+            background-color: #add8e6;
+        }
+        
+        .bg-green {
+            background-color: #90ee90;
+        }
+        
+        .bg-pink {
+            background-color: #ffb6c1;
+        }
+        
+        /* Border examples */
+        .border-section {
+            margin: 20px 0;
+        }
+        
+        .border-example {
+            padding: 15px;
+            margin: 10px 0;
+        }
+        
+        .border-solid {
+            border: 2px solid black;
+        }
+        
+        .border-dashed {
+            border: 2px dashed red;
+        }
+        
+        .border-dotted {
+            border: 2px dotted blue;
+        }
+        
+        /* Text examples */
+        .text-section {
+            margin: 20px 0;
+        }
+        
+        .text-example {
+            margin: 10px 0;
+        }
+        
+        .text-left {
+            text-align: left;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .text-right {
+            text-align: right;
+        }
+        
+        /* Font examples */
+        .font-section {
+            margin: 20px 0;
+        }
+        
+        .font-example {
+            margin: 10px 0;
+        }
+        
+        .font-serif {
+            font-family: Times New Roman, serif;
+        }
+        
+        .font-sans {
+            font-family: Arial, sans-serif;
+        }
+        
+        .font-mono {
+            font-family: Courier New, monospace;
+        }
+        
+        /* Table styles */
+        .table-section {
+            margin: 20px 0;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background-color: #333;
+            color: white;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        /* Color examples */
+        .color-section {
+            margin: 20px 0;
+        }
+        
+        .color-example {
+            padding: 15px;
+            margin: 10px 0;
+            color: white;
+        }
+        
+        .color-red {
+            background-color: #ff0000;
+        }
+        
+        .color-blue {
+            background-color: #0000ff;
+        }
+        
+        .color-green {
+            background-color: #008000;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Simple CSS Tutorial</h1>
+        
+        <!-- Background Color Section -->
+        <section class="bg-section">
+            <h2>Background Colors</h2>
+            <div class="bg-example bg-blue">This element has a light blue background</div>
+            <div class="bg-example bg-green">This element has a light green background</div>
+            <div class="bg-example bg-pink">This element has a light pink background</div>
+        </section>
+        
+        <!-- Border Section -->
+        <section class="border-section">
+            <h2>Borders</h2>
+            <div class="border-example border-solid">This element has a solid border</div>
+            <div class="border-example border-dashed">This element has a dashed border</div>
+            <div class="border-example border-dotted">This element has a dotted border</div>
+        </section>
+        
+        <!-- Text Section -->
+        <section class="text-section">
+            <h2>Text Alignment</h2>
+            <div class="text-example text-left">This text is aligned to the left</div>
+            <div class="text-example text-center">This text is centered</div>
+            <div class="text-example text-right">This text is aligned to the right</div>
+        </section>
+        
+        <!-- Font Section -->
+        <section class="font-section">
+            <h2>Fonts</h2>
+            <div class="font-example font-serif">This text uses a serif font</div>
+            <div class="font-example font-sans">This text uses a sans-serif font</div>
+            <div class="font-example font-mono">This text uses a monospace font</div>
+        </section>
+        
+        <!-- Table Section -->
+        <section class="table-section">
+            <h2>Tables</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Country</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>25</td>
+                        <td>USA</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>30</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr>
+                        <td>Bob Johnson</td>
+                        <td>22</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr>
+                        <td>Sarah Williams</td>
+                        <td>28</td>
+                        <td>Australia</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Color Section -->
+        <section class="color-section">
+            <h2>Colors</h2>
+            <div class="color-example color-red">This is red text on red background</div>
+            <div class="color-example color-blue">This is white text on blue background</div>
+            <div class="color-example color-green">This is white text on green background</div>
+        </section>
+        
+        <div class="footer">
+            <p>Simple CSS Tutorial </p>
+        </div>
+    </div>
+</body>
+</html>
